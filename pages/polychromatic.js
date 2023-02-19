@@ -1,8 +1,6 @@
 import axios from "axios"
 import styles from '@/styles/Home.module.css'
-import styled from "styled-components"
 import { useEffect, useState } from "react"
-import NasaButton from "@/components/button"
 import Image from "next/image"
 export default function Polychromatic () {
 const [image, setImage] = useState([])

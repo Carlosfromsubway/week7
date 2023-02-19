@@ -4,7 +4,6 @@ import styles from '@/styles/Home.module.css'
 import axios from 'axios'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
-
 export default function Home() {
   const [data, setData] = useState();
 
